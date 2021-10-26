@@ -11,6 +11,41 @@
 # The bot will only use the subs defined in this list
 # if this list is empty it will choose subreddits randomly
 REDDIT_APPROVED_SUBS = [
+"mma",
+"ufc",
+"bjj",
+"bareknuckleboxing",
+"boxing",
+"bjj",
+"Bellator",
+"BrazilianJiuJitsu",
+"Conor_McGregor",
+"ColbyCovington",
+"CowboyCerrone",
+"DiazBrothers",
+"EddieBravo",
+"FightDrama",
+"Grappling",
+"JiuJitsu",
+"JoeRogan",
+"Judo",
+"Karate",
+"Kickboxing",
+"MartialArts",
+"MMAMemes",
+"MuayThai",
+"NateDiaz",
+"RondaRousey",
+"AliAbdelAziz",
+"steroids",
+"fightporn",
+"bodybuilding",
+"StreetFights",
+"judo",
+"amateur_boxing",
+"fights",
+"wrestling",
+"karate",
 ]
 
 # array of arrays with subreddits
@@ -18,6 +53,6 @@ REDDIT_APPROVED_SUBS = [
 # the first array item is the source,
 # and the rest are where it could be re-posted to
 CROSSPOST_SUBS = [
-  ["aww", "pics", "animals"],
-  ["catpictures", "aww"]
+  ["mma", "ufc"],
+  ["ufc", "mma"]
 ]
